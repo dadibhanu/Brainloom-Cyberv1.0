@@ -20,5 +20,4 @@ jobs:
           script: |
             cd ~/apps/brainloom/Brainloom-Cyberv1.0
             git pull origin main
-            docker compose down
             docker compose up -d --build
